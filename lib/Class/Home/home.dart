@@ -19,6 +19,10 @@ class _HomeState extends State<Home> {
     {
       'id': 1,
       'title': 'Http'
+    },
+    {
+      'id': 2,
+      'title': 'Chat'
     }
   ];
 
@@ -44,6 +48,9 @@ class _HomeState extends State<Home> {
                       break;
                     case 1:
                       Get.toNamed(routeHttp);
+                      break;
+                    case 2:
+                      Get.toNamed(routeChat);
                       break;
                     default:
                   }
